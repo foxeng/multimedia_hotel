@@ -1,0 +1,12 @@
+- Notify the view about each transaction (especially when paying for a stay
+at a hotel) e.g. with a popup.
+- When asking for input from the player, use something better than a text field
+asking for a hotel id (e.g., a drop-down or radio buttons).
+- Reflect on the UI the actions a player can do on each round (disable 'Request
+building' and 'Buy entrance' when a player has no property or not enough money).
+- Add user help.
+
+- Better separation of concerns of the model / view (possibly add a separate
+controller). Better yet, implement the observer pattern.
+
+- Document the code better and more extensively.
